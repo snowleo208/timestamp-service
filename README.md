@@ -7,9 +7,12 @@ User stories:
 3) If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 Example usage:
+```
 https://tame-rat.glitch.me/December%2015,%202015
 https://tame-rat.glitch.me/1450137600
+```
+
 Example output:
-{ "unix": 1450137600, "natural": "December 15, 2015" }
+`{ "unix": 1450137600, "natural": "December 15, 2015" }`
 
 Made using Glitch.
